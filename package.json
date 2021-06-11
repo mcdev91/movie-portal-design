@@ -1,0 +1,26 @@
+{
+    "private": true,
+    "scripts": {
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run development -- --watch",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "devDependencies": {
+        "@popperjs/core": "^2.9.2",
+        "axios": "^0.21",
+        "bootstrap": "^5.0.1",
+        "cross-env": "7.0.2",
+        "laravel-mix": "^6.0.19",
+        "lodash": "^4.17.19",
+        "popper.js": "^1.12",
+        "postcss": "^8.3.2",
+        "resolve-url-loader": "^3.1.2",
+        "sass": "^1.15.2",
+        "sass-loader": "^8.0.0"
+    },
+    "dependencies": {
+        "ionicons": "^5.5.1"
+    }
+}
